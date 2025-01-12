@@ -1,18 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import Movie from "../../Assets/Projects/Movie.png";
 import FoodMania from "../../Assets/Projects/FD.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import GYM from "../../Assets/Projects/GYM.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -27,7 +22,6 @@ function Projects() {
               isBlog={false}
               title="Food Mania"
               description="Engineered a full-stack web application, Food Mania Web Application, using MERN Stack. Integrated functionalities for booking hotel rooms and reserving dining tables, with dynamic pricing models. Developed a robust cart solution for food ordering, incorporating real-time item management where user can add, remove, update quantities of items. Included a functionality to estimate delivery time based on user location, including distance validation, and integrated PDF generation for generating invoices related to both bookings and food orders."
-              demoLink="https://hotel-food-mania.vercel.app/"
             />
           </Col>
 
